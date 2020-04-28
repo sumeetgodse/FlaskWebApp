@@ -1,0 +1,60 @@
+<html>
+<head>
+<title>Weather App</title>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  
+  <style>
+
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+      .data{
+        border:2px solid white;
+        text-align:center;
+        background-color:#212121;
+        color:white;
+        vertical-align: middle;
+        line-height:100px;
+        height:100px 
+      }
+  </style>
+</head>
+<body style="background-color:#bbdefb">
+ 
+  
+  <div style="border :1px solid white;color:white;background-color: black;padding :20px;text-align: center;">
+    <h1>Weather App</h1>
+</div>
+
+      <div name="query" id="query">
+        <div class="row" style="margin-top:30px">
+        <div class="col-sm-3"></div>
+        <div class="col-sm-6" style="border:2px solid black;text-align:center;background-color: white;">
+        <form action="result" method="POST">
+            <br><br>
+            <input type="text" placeholder="Enter Location..." name="loc">
+            <br><br>
+            <input class="button1" type="submit" value="SUBMIT">
+            <br><br>
+        </form>
+        </div>
+        <div class="col-sm-3"></div>
+        </div>
+    </div>
+  
+ 
+</body>
+</html>
+
